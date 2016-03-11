@@ -15,7 +15,7 @@ public class TesseractExample {
 	        ITesseract instance = new Tesseract();  // JNA Interface Mapping
 	        // ITesseract instance = new Tesseract1(); // JNA Direct Mapping
 	        //instance.setDatapath("C:/Program Files/Tesseract-OCR");
-	        instance.setLanguage("kan");
+	        instance.setLanguage("kan+en");
 	        try {
 	            Object result =instance.doOCR(imageFile);
 	           System.out.print(result);
