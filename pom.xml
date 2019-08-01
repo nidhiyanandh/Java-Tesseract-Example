@@ -4,10 +4,10 @@
   <artifactId>Tesseract</artifactId>
   <version>0.0.1-SNAPSHOT</version>
    <dependencies>
-      <dependency>
-	<groupId>net.sourceforge.tess4j</groupId>
-	<artifactId>tess4j</artifactId>
-	<version>3.0.0</version>
+    <dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>4.4.0</version>
 </dependency>
 
     </dependencies>
